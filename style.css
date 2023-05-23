@@ -1,0 +1,284 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #f2f2f2;
+  margin: 0;
+  padding-left: 80px;
+  padding-right: 80px;
+  
+}
+
+ul{
+  list-style-type: none;
+}
+
+.navbar{
+  background: #f2f2f2;
+  padding: 1em 0;
+  /* padding-left: 80px;
+  padding-right: 80px; */
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+  left: 200%;
+  margin-right: 100px;
+  width: 200px;
+  background-color: blue;
+}
+
+.navbar .container {
+  display: flex;
+  place-content: space-between;
+  /* padding-left: -80px; */
+  /* padd */
+
+}
+
+.navbar .container ul{
+  display: flex;
+  color: #000;
+  justify-content: space-between;
+  background-color: aqua;
+  width: 450px;
+  right: 300px;
+  
+}
+
+.navbar .container ul li a {
+color: #000;
+text-decoration: none;
+}
+
+
+.design .content{
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  box-shadow: inset 0 12px 0 1000px rgba(0, 0, 0, .8);
+  /* background:url(images/hand.png); */
+  /* height: 100vh; */
+  /* width: 100%; */
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+
+}
+
+.design .content img{
+  width: 100% ;
+  object-fit: fill;
+  height: 100%;
+  opacity: 42%;
+}
+
+.design .content .info{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 40px;
+
+}
+
+.intro{
+  /* background:url(images/hand.png); */
+  margin-bottom: 150px;
+}
+
+.intro .text{
+  padding-top: 40px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.intro .text .wow{
+  line-height: 2;
+}
+
+.contact .messsage{
+  padding-left: 30px;
+}
+.last{
+  margin-bottom: 30px;
+}
+.last .wow{
+  text-align: center;
+}
+
+.container .w{
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.container{
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+}
+
+.container .card {
+  background: #E8F4FC;
+  width: 180px;
+  height: 300px;
+  margin: 10px;
+  border-radius: 15px;
+ padding-left: 55px;
+  
+}
+
+.container .card .card-image {
+  background: #E8F4FC;
+  height: 20px;
+  margin-bottom: 15px;
+}
+/* .container .card .card-image2 {
+  background: aqua;
+  height: 80px;
+  margin-bottom: 15px;
+}
+.container .card .card-image3 {
+  background: aqua;
+  height: 80px;
+  margin-bottom: 15px;
+} */
+
+/* .container .card .card-image1{
+  background: url(images/food.png);
+  height: 50px;
+  width: 0px;
+  size: 5px;
+  /* background-size: cover; */
+  /* justify-content: center; */
+  /* align-content: center; */
+/* }  */
+
+.container .card .text{
+  margin-bottom: 33px;
+}
+
+.card-1{
+  margin-bottom: 150px;
+}
+
+.card-1 .quote{
+  text-align: center;
+}
+
+.card-1 .container2 .pic  {
+  display: flex;
+  justify-content: center;
+
+}
+
+.container2{
+  margin-top: 50px;
+}
+
+.container2 .image-container{
+  display: flex;
+  justify-content: space-between;
+  /* margin: 10px; */
+}
+
+.container2 .image-container img{
+  width: 200px;
+  height: auto;
+}
+
+.card-1 .button a{
+    font-size: 15px;
+    text-decoration: none;
+    background: #BADFF7;
+    color: #105B8E;
+    border: #BADFF7 1px solid;
+    padding: 10px 30px;
+    /* border-radius: 10px; */
+    margin-top: 20px;
+    
+}
+
+.card-1 .button{
+  text-align: center;
+  padding-top: 50px;
+  justify-content: center;
+}
+
+.contact .message{
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.contact .message .head-text{
+  color: #105b8e;
+  line-height: 40px;
+  padding-top: 30px;
+}
+
+.contact .message .contact-text{
+  padding-top: 30px;
+}
+
+.contact .message .contact-text .second{
+  padding-top: 30px;
+}
+
+.contact .message .contact-text1 {
+  padding-top: 30px;
+  color: #105b8e;
+}
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  background: #e8f4fc;
+  margin-bottom: 30px;
+}
+
+.contact .forms{
+  display: flex;
+  flex-direction: column;
+  /* margin: 10px; */
+  /* justify-content: space-between; */
+  padding-right: 150px;
+  width: 300px;
+}
+
+.event .msg{
+  text-align: center;
+}
+
+.event .card3{
+  display: flex;
+  justify-content: space-between;
+}
+
+.event .card3 .banner img{
+  width: 400px;
+  padding-top: 50px;
+}
+.event .card3 .banner2 img{
+  width: 400px;
+  padding-top: 50px;
+}
+
+.event .card3 .text{
+  font-size: large;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.event .card3 .info{
+  padding-bottom: 20px;
+}
